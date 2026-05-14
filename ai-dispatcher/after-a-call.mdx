@@ -1,0 +1,26 @@
+---
+title: What happens after a call
+description: How Towvio processes a call and creates a job
+---
+
+1. Call ends
+2. Vapi sends a webhook to Towvio
+3. Towvio extracts job data from the call transcript
+4. Job is created in your dashboard with status **Pending**
+5. Customer receives SMS confirmation
+6. If Slack is connected, a call summary posts to your channel
+
+This happens within 30 seconds of the call ending.
+
+## What gets extracted from every call
+
+- Customer name and phone number
+- Vehicle year, make, model, and color
+- Service type
+- Pickup and dropoff address
+- EV, AWD, neutral, and keys status
+- Any additional notes from the conversation
+
+## If the job didn't get created
+
+See [Job didn't get created after a call](/troubleshooting/job-not-created) for next steps.
