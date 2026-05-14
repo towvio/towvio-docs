@@ -1,0 +1,22 @@
+---
+title: Job didn't get created after a call
+description: Steps to take when an AI dispatcher call doesn't create a job
+---
+
+Check these in order:
+
+1. **Did the call last at least 60 seconds?** Very short calls may not have enough data to create a job.
+2. **Did the caller provide a name, phone, or location?** Towvio requires at least one of these to create a job.
+3. **Is your Vapi assistant ID configured correctly?** Go to **Settings → AI Dispatcher** and confirm the assistant ID matches your Vapi account.
+4. **Check the call in your Vapi dashboard** — look for the end-of-call-report webhook firing.
+5. **Check your jobs dashboard** — filter by source "AI Dispatcher" to see if it was created but is hard to find.
+
+## Still not working?
+
+Contact support with the following information:
+
+- Call date and time
+- Caller phone number
+- Your dispatch number that was called
+
+Email: support@towvio.com
