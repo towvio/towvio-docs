@@ -1,0 +1,34 @@
+{
+  "name": "Towvio",
+  "colors": {
+    "primary": "#F59E0B",
+    "light": "#F59E0B",
+    "dark": "#F59E0B"
+  },
+  "navigation": [
+    {
+      "group": "Getting started",
+      "pages": ["getting-started/setup", "getting-started/ai-dispatcher", "getting-started/drivers-trucks", "getting-started/test-call"]
+    },
+    {
+      "group": "Jobs",
+      "pages": ["jobs/how-jobs-work", "jobs/job-status", "jobs/manual-jobs", "jobs/canceling"]
+    },
+    {
+      "group": "AI dispatcher",
+      "pages": ["ai-dispatcher/how-it-works", "ai-dispatcher/after-a-call", "ai-dispatcher/personas", "ai-dispatcher/call-history"]
+    },
+    {
+      "group": "Billing",
+      "pages": ["billing/plan-limits", "billing/job-limits", "billing/overages", "billing/upgrading"]
+    },
+    {
+      "group": "Integrations",
+      "pages": ["integrations/slack", "integrations/quickbooks", "integrations/google"]
+    },
+    {
+      "group": "Troubleshooting",
+      "pages": ["troubleshooting/job-not-created", "troubleshooting/slack-alerts", "troubleshooting/driver-login", "troubleshooting/quickbooks-sync", "troubleshooting/contact"]
+    }
+  ]
+}
